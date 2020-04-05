@@ -16,4 +16,4 @@ blobs/*
 *#
 #*
 tmp
-awscliv2.*
+/awscliv2.*
