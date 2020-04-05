@@ -35,9 +35,9 @@ update:
 
 releases:
 - name: bpm
-  version: 1.1.8
   url: git+https://github.com/cloudfoundry/bpm-release
+  version: 1.1.8
 - name: awscli2
-  version: create  # TODO: update after first final release
-  url: .           # TODO: update after first final release
-  # sha1:            TODO: update after first final release
+  sha1: 9ac67cae872e2180fcd6c74d2969f60f02716434
+  url: https://github.com/starkandwayne/awscli2-boshrelease/releases/download/v1.0.0/awscli2-1.0.0.tgz
+  version: 1.0.0
