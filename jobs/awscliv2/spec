@@ -12,3 +12,7 @@ properties:
     description: AWS access key
   aws_secret_access_key:
     description: AWS access secret
+  config_file:
+    description: Explicit ~/.aws/config file contents
+  credentials_file:
+    description: Explicit ~/.aws/credentials file contents

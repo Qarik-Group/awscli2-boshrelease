@@ -1,4 +1,8 @@
+<% if_p("config_file") do |config| %>
+<%= config %>
+<% end.else do %>
 [default]
 <% if_p("region") do %>
 region = <%= p("region") %>
+<% end %>
 <% end %>
