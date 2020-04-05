@@ -1,6 +1,6 @@
 ---
-name: awscli2
-packages: []
+name: awscliv2
+packages: [awscliv2]
 templates:
   ignoreme: ignoreme
 properties: {}

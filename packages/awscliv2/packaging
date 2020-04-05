@@ -1,0 +1,8 @@
+set -e # exit immediately if a simple command exits with a non-zero status
+set -u # report the usage of uninitialized variables
+
+unzip awscliv2/awscliv2.zip
+
+./aws/install \
+  --install-dir ${BOSH_INSTALL_TARGET} \
+  --bin-dir ${BOSH_INSTALL_TARGET}/bin
