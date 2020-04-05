@@ -1,0 +1,47 @@
+---
+meta:
+  name:    awscli2
+  # fly -t lab-cf login -c https://pipes.starkandwayne.com -n cfcommunity
+  target:  lab-cf
+  url:     https://pipes.starkandwayne.com
+
+  manifest:
+    path:   manifests/awscliv2.yml
+    vars:   "--- {}"
+    vars-pr: (( grab meta.manifest.vars ))
+    operator_file_paths: "" # comma separated list relative to repo root
+
+  test-errand: ~
+
+  initial_version: 1.0.0
+
+  git:
+    email:  ((git-commit-email))
+    name:   ((git-commit-name))
+
+  bosh:
+    target:   https://10.128.4.73:25555
+    cacert:   ((thunder-dome.ca-certificate))
+    username: ((thunder-dome.username))
+    password: ((thunder-dome.password))
+
+  aws:
+    bucket:      (( grab meta.pipeline ))
+    region_name: us-east-1
+    access_key: ((aws-cfcommunity.access))
+    secret_key: ((aws-cfcommunity.secret))
+
+  github:
+    owner:  starkandwayne
+    repo:   (( grab meta.pipeline ))
+    branch: master
+    private_key:  ((github-private-key))
+    access_token: ((github-access-token))
+
+  slack:
+    webhook:  ((slack.webhook))
+    icon:     ((slack.logo))
+    username: ((slack.username))
+    channel:       (( concat meta.name "-boshrelease" ))
+    blob_success:  '(( concat ": New version of  was detected, and updated in master. <" meta.url "/teams//pipelines/| Cut a new release?>" ))'
+    blob_failure:  '(( concat ": :airplane_arriving: <" meta.url "/teams//pipelines//jobs//builds/| Failed to update the blob for >" ))'
