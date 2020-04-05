@@ -1,12 +1,6 @@
 ---
 name: awscliv2
 
-addons:
-- name: bpm
-  jobs:
-  - name: bpm
-    release: bpm
-
 instance_groups:
 - name: awscliv2
   azs: [z1, z2, z3]
@@ -34,9 +28,6 @@ update:
   serial: false
 
 releases:
-- name: bpm
-  url: git+https://github.com/cloudfoundry/bpm-release
-  version: 1.1.8
 - name: awscli2
   sha1: 8f9dd2def5beb8c1515f191b000e82332d22ea35
   stemcell:
