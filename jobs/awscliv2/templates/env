@@ -1,0 +1,3 @@
+export PATH=/var/vcap/packages/awscliv2/bin:$PATH
+export AWS_CONFIG_FILE=/var/vcap/jobs/awscliv2/.aws/config
+export AWS_SHARED_CREDENTIALS_FILE=/var/vcap/jobs/awscliv2/.aws/credentials

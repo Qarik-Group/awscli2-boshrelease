@@ -1,0 +1,4 @@
+[default]
+<% if_p("region") do %>
+region = <%= p("region") %>
+<% end %>

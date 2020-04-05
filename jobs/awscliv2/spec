@@ -2,5 +2,13 @@
 name: awscliv2
 packages: [awscliv2]
 templates:
-  ignoreme: ignoreme
-properties: {}
+  aws_config: .aws/config
+  aws_credentials: .aws/credentials
+  env: env
+properties:
+  region:
+    default: us-east-1
+  aws_access_key_id:
+    description: AWS access key
+  aws_secret_access_key:
+    description: AWS access secret
