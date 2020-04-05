@@ -16,7 +16,7 @@ instance_groups:
   networks: [{name: default}]
   jobs:
   - name: awscliv2
-    release: awscliv2
+    release: awscli2
     properties: {}
 
 variables: []
@@ -37,7 +37,7 @@ releases:
 - name: bpm
   version: 1.1.8
   url: git+https://github.com/cloudfoundry/bpm-release
-- name: awscliv2
+- name: awscli2
   version: create  # TODO: update after first final release
   url: .           # TODO: update after first final release
   # sha1:            TODO: update after first final release

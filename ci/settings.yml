@@ -7,9 +7,13 @@ meta:
 
   manifest:
     path:   manifests/awscliv2.yml
-    vars:   "--- {}"
     vars-pr: (( grab meta.manifest.vars ))
-    operator_file_paths: "" # comma separated list relative to repo root
+    operator_file_paths: "manifests/operators/credentials.yml" # comma separated list relative to repo root
+    vars: |-
+      aws_region: us-east-1
+      aws_access_key_id: ((aws-cfcommunity.access))
+      aws_secret_access_key: ((aws-cfcommunity.secret))
+
 
   test-errand: ~
 
@@ -28,8 +32,8 @@ meta:
   aws:
     bucket:      (( grab meta.pipeline ))
     region_name: us-east-1
-    access_key: ((aws-cfcommunity.access))
-    secret_key: ((aws-cfcommunity.secret))
+    access_key:  ((aws-cfcommunity.access))
+    secret_key:  ((aws-cfcommunity.secret))
 
   github:
     owner:  starkandwayne
