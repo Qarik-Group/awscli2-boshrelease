@@ -1,0 +1,6 @@
+---
+name: awscli2
+packages: []
+templates:
+  ignoreme: ignoreme
+properties: {}

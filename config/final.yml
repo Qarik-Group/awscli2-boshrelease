@@ -1,0 +1,6 @@
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: awscli2-boshrelease
+final_name: awscli2

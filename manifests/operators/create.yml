@@ -1,0 +1,7 @@
+---
+- type: replace
+  path: /releases/name=awscli2
+  value:
+    name: awscli2
+    version: create
+    url: file://.
