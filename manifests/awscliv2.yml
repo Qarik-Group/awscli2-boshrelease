@@ -29,9 +29,9 @@ update:
 
 releases:
 - name: awscli2
-  sha1: 5d9dbd53f1f0393bd7e475c30e109ff6fff9ae02
+  sha1: 618d81c17cad09f1ce135074f73e49005b57a784
   stemcell:
     os: ubuntu-xenial
-    version: "621.74"
-  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.2-ubuntu-xenial-621.74-20200601-012445-374090281-20200601012445.tgz
-  version: 1.0.2
+    version: latest
+  url: https://github.com/starkandwayne/awscli2-boshrelease/releases/download/v1.0.3/awscli2-1.0.3-ubuntu-xenial-621.125-20220131-124414-425383.tgz
+  version: 1.0.3
