@@ -33,5 +33,5 @@ releases:
   stemcell:
     os: ubuntu-xenial
     version: "621.125"
-  url: https://github.com/BiBamba/bosh-test-releases/blob/main/awscliv2/awscli2-1.0.3-ubuntu-xenial-621.125-20220131-124414-425383.tgz
+  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.3-ubuntu-xenial-621.125-20220131-124414-425383.tgz
   version: 1.0.3
