@@ -1,0 +1,21 @@
+name: awscli2
+version: 1.0.3
+commit_hash: a87bdf5
+uncommitted_changes: false
+jobs:
+- name: awscliv2
+  version: c9e6a58c06da8d53297c00f537e91d731e416b2fb6f3fe9b65bdc28a666a6bda
+  fingerprint: c9e6a58c06da8d53297c00f537e91d731e416b2fb6f3fe9b65bdc28a666a6bda
+  sha1: sha256:b2c5d8da60f7519d69a82d26d93f209c0e4f2dc7bc6092f19c4bc8861b8f5b00
+  packages:
+  - awscliv2
+packages:
+- name: awscliv2
+  version: 1c75bf2ac71b7eb9fef2a74d8eab7064cc2b144ce372501559fa1bba1bd93159
+  fingerprint: 1c75bf2ac71b7eb9fef2a74d8eab7064cc2b144ce372501559fa1bba1bd93159
+  sha1: sha256:88d745b4765484c12a3c48ec9f317114eaeb4b254ddaae944222b0b3d625fec2
+  dependencies: []
+license:
+  version: 2c57a4e32e619009de871a249e59006cd74b972a6b6e80ee20fd363cd0baa572
+  fingerprint: 2c57a4e32e619009de871a249e59006cd74b972a6b6e80ee20fd363cd0baa572
+  sha1: sha256:5facfe77b2cf46867956082ec6a87cf35c2284f62c06eb4d44e4bdb73a32a945
