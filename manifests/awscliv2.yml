@@ -29,7 +29,7 @@ update:
 
 releases:
 - name: awscli2
-  sha1: 618d81c17cad09f1ce135074f73e49005b57a784
+  sha1: 25daa9e651c10172e3b269cfb9bd125d08203102
   stemcell:
     os: ubuntu-xenial
     version: "621.125"
