@@ -47,9 +47,9 @@ meta:
 
   bosh:
     stemcell:
-      major: 621
+      major: 1 
       cpi: vsphere-esxi
-      os: ubuntu-xenial
+      os: ubuntu-bionic
     target:   ((bosh_environment))
     cacert:   ((bosh_ca_cert))
     username: ((bosh_client))
