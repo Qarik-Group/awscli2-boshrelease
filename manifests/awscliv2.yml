@@ -1,5 +1,5 @@
 ---
-name: awscliv2
+name: awscliv2-check
 
 instance_groups:
 - name: awscliv2
@@ -17,7 +17,7 @@ variables: []
 
 stemcells:
 - alias: default
-  os: ubuntu-xenial
+  os: ubuntu-bionic
   version: latest
 
 update:
@@ -29,9 +29,9 @@ update:
 
 releases:
 - name: awscli2
-  sha1: 618d81c17cad09f1ce135074f73e49005b57a784
+  sha1: 02f7388cbd6791a64d59f4ea346b8e462cf820f5
   stemcell:
-    os: ubuntu-xenial
-    version: "621.125"
-  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.3-ubuntu-xenial-621.125-20220131-124414-425383.tgz
+    os: ubuntu-bionic
+    version: "1.59"
+  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.3-ubuntu-bionic-1.59-20220201-084932-427575.tgz
   version: 1.0.3
