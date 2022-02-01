@@ -17,7 +17,7 @@ variables: []
 
 stemcells:
 - alias: default
-  os: ubuntu-xenial
+  os: ubuntu-bionic
   version: latest
 
 update:
@@ -31,7 +31,7 @@ releases:
 - name: awscli2
   sha1: 25daa9e651c10172e3b269cfb9bd125d08203102
   stemcell:
-    os: ubuntu-xenial
-    version: "621.125"
+    os: ubuntu-bionic
+    version: "1.59"
   url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.3-ubuntu-xenial-621.125-20220201-081214-711205.tgz
   version: 1.0.3
