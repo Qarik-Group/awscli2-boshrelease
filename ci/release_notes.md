@@ -1,8 +1,3 @@
-# Release Notes - [ 02/01/2022 ]
-
-**awscli2-v1.0.3**
-
-### New
-Update aws CLI to the latest version
-Update Ubuntu-xenial to the lastest version
+* Update AWS CLI to ```aws-cli/2.4.14 Python/3.8.8```
+* Fixed ci to compile releases against ubuntu-bionic v1 stemcells
 
