@@ -35,3 +35,4 @@ releases:
     version: "1.59"
   url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.3-ubuntu-bionic-1.59-20220201-084932-427575.tgz
   version: 1.0.3
+
