@@ -45,7 +45,7 @@ docker run -ti -v $PWD/tmp/awscli:/awscli ubuntu /awscli/aws/dist/aws --version
 
 ## Creation of the Final Release
 
-###1. Uploading of the blobs
+1. Uploading of the blobs
 
 Blobs should be saved into release blobstore before cutting a new final release.
 Create a config/private.yml as follow:
@@ -58,11 +58,11 @@ blobstore:
 
 Upload the blobs by running: ```bosh upload-blobs```
 
-###2. Commit 
+2. Commit 
 Commit all the changes made in the directory
 
 
-##3. Compiled Release and Final Release
+3. Compiled Release and Final Release
 
 The compiled releases are done through the concourse pipeline. They are done against stemcells.
 
