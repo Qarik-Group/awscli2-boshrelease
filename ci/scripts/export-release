@@ -11,7 +11,7 @@ set -eu
 # stemcell metadata/upload
 #
 
-STEMCELL_CPI=${STEMCELL_CPI:-aws-xen-hvm}
+STEMCELL_CPI=${STEMCELL_CPI:-google-kvm}
 STEMCELL_OS=${STEMCELL_OS:-ubuntu-bionic}
 STEMCELL_VERSION=$(cat stemcell/version)
 
