@@ -2,8 +2,8 @@
 meta:
   name:    awscli2
   # fly -t lab-cf login -c https://pipes.starkandwayne.com -n cfcommunity
-  target:  bamba #cloudpipes@main
-  url:     http://10.128.224.33  #https://cloudpipes.starkandwayne.com
+  target:  cloudpipes@main
+  url:     https://cloudpipes.starkandwayne.com
 
   manifest:
     path:   manifests/awscliv2.yml
