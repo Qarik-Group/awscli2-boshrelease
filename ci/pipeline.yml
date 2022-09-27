@@ -48,7 +48,7 @@ meta:
   bosh:
     stemcell:
       major: 1 
-      cpi: vsphere-esxi #google-kvm
+      cpi: google-kvm #vsphere-esxi
       os: ubuntu-bionic
     target:   ((bosh_environment))
     cacert:   ((bosh_ca_cert))
