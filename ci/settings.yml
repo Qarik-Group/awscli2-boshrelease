@@ -38,7 +38,7 @@ meta:
   github:
     owner:  starkandwayne
     repo:   (( grab meta.pipeline ))
-    branch: ci-update
+    branch: master
     private_key:  ((github-private-key))
     access_token: ((github-access-token))
 
