@@ -29,9 +29,9 @@ update:
 
 releases:
 - name: awscli2
-  sha1: cfb2b10deb3d136dd319f9ba083ffe753a4a2e76
+  sha1: 5a0f535de61ba2d689e6fb815c0f239a8b882635
   stemcell:
     os: ubuntu-bionic
     version: "1.107"
-  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.5-ubuntu-bionic-1.107-20220930-050313-80968151-20220930050314.tgz
+  url: https://s3.amazonaws.com/awscli2-boshrelease/compiled-releases/awscli2/awscli2-1.0.5-ubuntu-bionic-1.107-20220930-052340-663693959-20220930052341.tgz
   version: 1.0.5
